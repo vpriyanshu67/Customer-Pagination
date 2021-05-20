@@ -1,0 +1,16 @@
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .childbox {
+  margin: 5px;
+  width: 80px;
+}
+/*# sourceMappingURL=Customer.css.map */

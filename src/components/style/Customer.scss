@@ -1,0 +1,17 @@
+.image{
+    width:80px;
+    height:80px;
+
+}
+
+.box{
+    display:flex;
+    
+
+
+    .childbox {
+        margin: 5px;
+        width:80px;
+        
+    }
+}
