@@ -17,8 +17,8 @@ export default function Customer(){
     useEffect(() => {
         async function getCustomer(){
         const {data} = await axios.get("https://intense-tor-76305.herokuapp.com/merchants");
-        let trueCustomer = data.map(f=>({...f,maxSeen:true}));
-        setCustomer(trueCustomer);
+          let trueCustomer = data.map(f=>({...f,maxSeen:true }));          
+           setCustomer(trueCustomer);
         }
         getCustomer();          
     },[setCustomer]);
@@ -48,6 +48,7 @@ export default function Customer(){
 
 
     return(<div>
+  
         <CustomerContext.Provider value={{pageSize, 
             customer,
             setCustomer,
@@ -57,8 +58,15 @@ export default function Customer(){
             MinPage,
             handlePrevbtn,
             handleNextbtn}}>
+                  <div className =" bg-dark header"><h2>CUSTOMER DETAILS</h2></div>
                    <Table/>
+                   <marquee><b>Click on the Row to get the Bid details </b></marquee>
                    <Pagination/>
+                  
+             
+                    
+                  
+               
         </CustomerContext.Provider>  
         </div>
     )

@@ -25,7 +25,7 @@ export default function Pagination(){
    
    
    return ( 
-            <div className = "container">
+            <div className = "container1" >
            <nav aria-label="pagination">
                <ul className = "pagination" >
                <li><button className= "btn btn-success" onClick={handlePrevbtn} disabled={currentPage == pages[0] ? true : false}>Prev</button></li>  

@@ -1,0 +1,20 @@
+.box1{
+    display: flex;
+    
+    justify-content:  center;
+    align-items: center;
+    
+}
+.box2{
+    display: flex;
+    color: brown;
+    text-decoration: brown;
+    justify-content:  center;
+    
+    
+}
+.child{
+    margin: 5px;
+    width:100px;
+}
+

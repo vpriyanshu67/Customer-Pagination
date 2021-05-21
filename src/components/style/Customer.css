@@ -13,4 +13,11 @@
   margin: 5px;
   width: 80px;
 }
+
+.header {
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
 /*# sourceMappingURL=Customer.css.map */

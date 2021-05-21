@@ -1,4 +1,4 @@
-.container {
+.container1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,9 +66,5 @@
   height: 50px;
   width: 50px;
   text-align: center;
-}
-
-.active {
-  backgroue-color: #ff0505;
 }
 /*# sourceMappingURL=pagination.css.map */
